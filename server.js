@@ -15,5 +15,5 @@ app.use(require('./routes'))
 
 // require your db here and make sure to include the PORT
 require('./db')
-    .then(() => app.listen(3000))
+    .then(() => app.listen(process.env.PORT || 3000))
     .catch(err => console.log(err))
