@@ -5,7 +5,7 @@ const User = new Schema({
     type: String,
     required: true
   },
-  workout: [{
+  Workout: [{
     type: Schema.Types.ObjectId,
     ref: 'Workout'
   }]
