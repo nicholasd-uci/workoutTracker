@@ -20,6 +20,7 @@
   "homepage": "https://github.com/nicholasd-uci/workoutTracker#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.10.4"
+    "mongoose": "^5.10.4",
+    "passport": "^0.4.1"
   }
 }
